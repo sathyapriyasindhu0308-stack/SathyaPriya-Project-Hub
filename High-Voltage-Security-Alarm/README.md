@@ -181,6 +181,25 @@ The design was submitted for fabrication after the verification process was comp
 
 ---
 
+📦 Gerber File Export
+
+After finalizing the PCB layout and completing the design-rule checks, the fabrication files were exported using Autodesk Fusion.
+
+Gerber files were generated to provide the PCB fabrication vendor with the necessary board layout information for manufacturing. The required drill files were also prepared as part of the fabrication output.
+
+Gerber Export Process
+
+- Finalized the PCB layout after design-rule verification.
+- Confirmed that the identified design errors had been corrected.
+- Configured the PCB layers required for fabrication.
+- Exported the Gerber files for the PCB layers.
+- Generated the drill files required for PCB manufacturing.
+- Organized the fabrication files for vendor submission.
+
+The exported fabrication files were submitted to the PCB fabrication vendor along with the Bill of Materials (BOM).
+
+---
+
 🔬 Hardware Testing and Validation
 
 After receiving the fabricated PCB, the circuit was tested using two different battery supplies through the connector provided on the PCB.
@@ -248,6 +267,8 @@ Design Reverification
       ↓
 BOM Generation
       ↓
+Gerber and Drill File Export
+      ↓
 Fabrication File Preparation
       ↓
 PCB Fabrication
@@ -280,6 +301,8 @@ Through this project, the following concepts and practical skills were explored:
 - PCB design-rule checking
 - Design error identification and correction
 - Bill of Materials (BOM) generation
+- Gerber file export
+- Drill file generation
 - PCB fabrication preparation
 - Hardware testing
 - Battery-based circuit validation
@@ -302,7 +325,7 @@ Possible future improvements include:
 
 🎯 Project Outcome
 
-This project provided practical experience in designing an electronic circuit, validating its functionality through simulation, developing and routing a PCB, configuring board layers, performing design-rule verification, correcting errors, generating a BOM, preparing the design for fabrication, and testing the fabricated PCB using different battery supplies.
+This project provided practical experience in designing an electronic circuit, validating its functionality through simulation, developing and routing a PCB, configuring board layers, performing design-rule verification, correcting errors, generating a BOM, exporting Gerber files, preparing the design for fabrication, and testing the fabricated PCB using different battery supplies.
 
 It strengthened my understanding of electronic circuit design, PCB development, fabrication preparation, design validation, and hardware implementation.
 
